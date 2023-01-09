@@ -1,0 +1,38 @@
+#menu {
+  float: right;
+  font-size: 110%;
+  letter-spacing: 2px;
+}
+
+/* #menu {
+   line-height: 20px;
+}*/
+
+#menu li {
+  float: left;
+  list-style: none;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #cf2c91;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #25457e;
+  background-color: #25457e;
+}
+
+.active {
+  border-bottom: 1px solid #25457e;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 50px;
+}
+#title {
+  margin-top: 50px;
+}
