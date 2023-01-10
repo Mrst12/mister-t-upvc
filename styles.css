@@ -1,12 +1,8 @@
 #menu {
   float: right;
-  font-size: 110%;
+  font-size: 150%;
   letter-spacing: 2px;
 }
-
-/* #menu {
-   line-height: 20px;
-}*/
 
 #menu li {
   float: left;
@@ -17,22 +13,24 @@
 
 #menu a {
   text-decoration: none;
-  color: #cf2c91;
+  color: rgb(220 23 45);
 }
 
 #menu a:hover {
   border-bottom: 1px solid #25457e;
-  background-color: #25457e;
+  background-color: rgb(206 75 41);
+  color: black;
 }
 
 .active {
-  border-bottom: 1px solid #25457e;
+  border-bottom: 1px solid rgb(206 75 41);
 }
 
 a {
   text-decoration: none;
   margin-top: 50px;
 }
-#title {
-  margin-top: 50px;
+
+#logo {
+  width: 100%;
 }
