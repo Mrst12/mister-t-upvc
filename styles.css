@@ -34,3 +34,28 @@ a {
 #logo {
   width: 100%;
 }
+
+/*footer*/
+footer {
+  height: 100px;
+  background-color: rgb(63, 71, 199);
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+}
+
+footer i {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links > li {
+  display: inline;
+}
