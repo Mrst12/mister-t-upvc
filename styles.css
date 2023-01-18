@@ -75,11 +75,18 @@ ul.times {
   text-align: center;
   padding-bottom: 50px;
   padding-top: 50px;
+  border: 1px solid rgb(220 23 45);
+  color: rgb(220 23 45);
 }
 
 .opening {
   margin: 150px;
-  background-color: #f6f6f6;
 }
 
-/*contact page*/
+body {
+  background-image: url("https://res.cloudinary.com/mrst12/image/upload/o_20/v1673961018/shaun-shop-front_mbv6fx.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
