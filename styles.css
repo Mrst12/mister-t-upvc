@@ -3,6 +3,15 @@
   padding: 0;
   border: none;
 }
+
+body {
+  background-image: url("https://res.cloudinary.com/mrst12/image/upload/o_20/v1673961018/shaun-shop-front_mbv6fx.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
 /*header {
   position: fixed;
   width: 100%;
@@ -10,6 +19,7 @@
   left: 0;
 }*/
 
+/*Navigation*/
 #menu {
   float: right;
   font-size: 150%;
@@ -83,10 +93,28 @@ ul.times {
   margin: 150px;
 }
 
-body {
-  background-image: url("https://res.cloudinary.com/mrst12/image/upload/o_20/v1673961018/shaun-shop-front_mbv6fx.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+/*contact page*/
+
+.contact {
+  height: 400px;
+  width: 100%;
+}
+
+button {
+  background-color: rgb(206 75 41);
+}
+
+button a {
+  color: black;
+}
+
+button a:hover {
+  background-color: rgb(220 23 45);
+}
+
+/*testimonial page*/
+
+.testimonials {
+  height: 400px;
+  width: 100%;
 }
