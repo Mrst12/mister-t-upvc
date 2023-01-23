@@ -35,17 +35,17 @@ body {
 
 #menu a {
   text-decoration: none;
-  color: rgb(220 23 45);
+  color: rgb(192, 39, 57);
 }
 
 #menu a:hover {
   border-bottom: 1px solid #25457e;
-  background-color: rgb(206 75 41);
+  background-color: #ef7851;
   color: black;
 }
 
 .active {
-  border-bottom: 1px solid rgb(206 75 41);
+  border-bottom: 1px solid #ef7851;
 }
 
 a {
@@ -85,8 +85,9 @@ ul.times {
   text-align: center;
   padding-bottom: 50px;
   padding-top: 50px;
-  border: 1px solid rgb(220 23 45);
-  color: rgb(220 23 45);
+  border: 1px solid rgb(192, 39, 57);
+  color: black;
+  border-radius: 20px;
 }
 
 .opening {
@@ -96,9 +97,9 @@ ul.times {
 /*contact page*/
 
 button {
-  background-color: rgb(206 75 41);
+  background-color: #ef7851;
   padding: 20px;
-  margin: 20px;
+  margin: 30px;
   font-size: 20px;
   border-radius: 10px;
 }
@@ -107,21 +108,25 @@ button a {
   color: black;
 }
 
-button a:hover {
-  background-color: rgb(220 23 45);
+button:hover {
+  background-color: rgb(192, 39, 57);
 }
 
 .address {
   text-align: center;
-  border: 1px solid rgb(220 23 45);
+  border: 1px solid rgb(192, 39, 57);
+  border-radius: 20px;
   width: 50%;
-  margin: 150px auto 100px auto;
+  /*margin: 150px auto 100px auto;*/
   padding: 40px 20px;
+}
+.address p {
+  font-size: 20px;
 }
 
 .get-in-touch {
   text-align: center;
-  border: 1px solid rgb(220 23 45);
+  border: 1px solid rgb(192, 39, 57);
   width: 50%;
   margin: 100px;
   padding: 40px 0;
@@ -141,10 +146,7 @@ button a:hover {
   align-content: space-around;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-p {
-  font-size: 18px;
+  margin: 100px;
 }
 
 /*testimonial page*/
