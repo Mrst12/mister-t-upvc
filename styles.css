@@ -12,13 +12,6 @@ body {
   background-size: cover;
 }
 
-/*header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-}*/
-
 /*Navigation*/
 #menu {
   float: right;
@@ -83,15 +76,10 @@ ul.times {
 
 .times {
   text-align: center;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding: 100px 150px;
   border: 2px solid rgb(192, 39, 57);
   color: black;
   border-radius: 20px;
-}
-
-.opening {
-  margin: 150px;
 }
 
 /*contact page*/
@@ -180,5 +168,10 @@ button:hover {
   }
   .address {
     width: fit-content;
+  }
+
+  .times {
+    padding: 0;
+    margin: 100px;
   }
 }
