@@ -13,6 +13,7 @@ body {
 }
 
 /*Navigation*/
+
 #menu {
   float: right;
   font-size: 150%;
@@ -50,21 +51,23 @@ a {
   width: 100%;
 }
 
-/*footer*/
-footer {
-  height: 100px;
-  background-color: rgb(63, 71, 199);
-}
-
-footer p {
-  color: #fff;
-  text-align: center;
-  padding-top: 20px;
-}
+/*home page*/
 
 .about {
   margin-top: 10px;
   padding: 50px;
+}
+
+.supplies li {
+  float: left;
+  text-align: center;
+  padding: 10px;
+  list-style-position: inside;
+  line-height: 20px;
+}
+
+.supplies ul {
+  padding-top: 20px;
 }
 
 /*opening times page*/
@@ -106,7 +109,6 @@ button:hover {
   border: 2px solid rgb(192, 39, 57);
   border-radius: 20px;
   width: 50%;
-  /*margin: 150px auto 100px auto;*/
   padding: 40px 20px;
 }
 .address p {
@@ -125,26 +127,19 @@ button:hover {
   min-width: fit-content;
 }
 
-/*testimonial page*/
-
-.testimonials {
-  height: 400px;
-  width: 100%;
+/*footer*/
+footer {
+  height: 100px;
+  background-color: rgb(63, 71, 199);
 }
 
-/*home page*/
-.supplies li {
-  float: left;
+footer p {
+  color: #fff;
   text-align: center;
-  padding: 10px;
-  list-style-position: inside;
-  /*column-count: 2;*/
-  line-height: 20px;
-}
-
-.supplies ul {
   padding-top: 20px;
 }
+
+/*media queries*/
 
 @media screen and (max-width: 427px) {
   .flex-container {
